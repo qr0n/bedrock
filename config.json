@@ -1,0 +1,53 @@
+{
+  "accept-official-minecraft-server-eula": true,
+  "minecraft-server-version": "1.18.2.03",
+  "server-properties": {
+    "server-name": "Dedicated Node S3 Server",
+    "gamemode": "survival",
+    "difficulty": "normal",
+    "allow-cheats": true,
+    "max-players": 20,
+    "online-mode": false,
+    "white-list": false,
+    "server-port": 19132,
+    "server-portv6": 19133,
+    "view-distance": 32,
+    "tick-distance": 4,
+    "player-idle-timeout": 30,
+    "max-threads": 8,
+    "level-name": "My Cool Level",
+    "level-seed": null,
+    "default-player-permission-level": "member",
+    "texturepack-required": false,
+    "content-log-file-enabled": false,
+    "compression-threshold": 1,
+    "server-authoritative-movement": "server-auth",
+    "player-movement-score-threshold": 20,
+    "player-movement-distance-threshold": 0.3,
+    "player-movement-duration-threshold-in-ms": 500,
+    "correct-player-movement": false
+  },
+  "ui": {
+    "enabled": false,
+    "port": 3000,
+    "admin-code-sha256-hash": "replace-this-with-the-sha256-hash-of-your-admin-code"
+  },
+  "backup": {
+    "backup-frequency-minutes": 20,
+    "use-aws-s3-backup": false,
+    "num-backups-to-keep-for-type": {
+      "local": {
+        "SCHEDULED": 20,
+        "MANUAL": -1,
+        "ON_STOP": 30,
+        "ON_FORCED_STOP": -1
+      },
+      "remote": {
+        "SCHEDULED": 15,
+        "MANUAL": 30,
+        "ON_STOP": 20,
+        "ON_FORCED_STOP": 15
+      }
+    }
+  }
+}
