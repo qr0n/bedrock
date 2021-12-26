@@ -1,0 +1,31 @@
+{
+  "name": "minecraft-bedrock-node",
+  "version": "2021.12.23",
+  "description": "Easy to use Minecraft Bedrock Server with automatic cloud backups",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "develop": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debkbanerji/minecraft-bedrock-server.git"
+  },
+  "author": "Deb Banerji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/debkbanerji/minecraft-bedrock-server/issues"
+  },
+  "homepage": "https://github.com/debkbanerji/minecraft-bedrock-server#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "archiver": "^3.1.1",
+    "aws-sdk": "^2.656.0",
+    "cross-spawn": "^7.0.2",
+    "express": "^4.16.3",
+    "fs-extra": "^9.0.0",
+    "pidusage": "^2.0.21",
+    "unzipper": "^0.10.10"
+  }
+}
