@@ -28,9 +28,9 @@
     "correct-player-movement": false
   },
   "ui": {
-    "enabled": false,
+    "enabled": true,
     "port": 3000,
-    "admin-code-sha256-hash": "replace-this-with-the-sha256-hash-of-your-admin-code"
+    "admin-code-sha256-hash": "848B625141FE53B98254057D380ACFF165DAF589ABBC5CB30BA677A0779ADF80"
   },
   "backup": {
     "backup-frequency-minutes": 20,
